@@ -918,6 +918,44 @@ section {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
+/*--------------------------------------------------------------
+# new
+--------------------------------------------------------------*/
+.button-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.button-wrapper {
+  margin: 10px;
+}
+
+.custom-button {
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
+.custom-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.4);
+}
+/*--------------------------------------------------------------
+# new
+--------------------------------------------------------------*/
+
 
 /*--------------------------------------------------------------
 # Details
