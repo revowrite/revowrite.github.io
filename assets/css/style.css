@@ -922,14 +922,17 @@ section {
 # new
 --------------------------------------------------------------*/
 .button-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  position: relative;
+  height: 300px;
+  background-color: #f4f7fd;
+  overflow: hidden;
 }
 
 .button-wrapper {
-  margin: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .custom-button {
@@ -952,6 +955,19 @@ section {
   outline: none;
   box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.4);
 }
+
+.button-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: linear-gradient(to bottom, #007bff, #f4f7fd);
+  z-index: -1;
+  transform: skewY(-3deg);
+}
+
 /*--------------------------------------------------------------
 # new
 --------------------------------------------------------------*/
