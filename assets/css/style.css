@@ -962,11 +962,24 @@ section {
   top: 0;
   left: 0;
   right: 0;
-  height: 100px;
-  background: linear-gradient(to bottom, #007bff, #f4f7fd);
+  bottom: 0;
+  background-color: #007bff;
+  transform: skewY(-10deg);
   z-index: -1;
-  transform: skewY(-3deg);
 }
+
+.button-section::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background: radial-gradient(ellipse at bottom, rgba(0, 0, 0, 0) 0%, #007bff 80%);
+  transform: skewY(10deg);
+  z-index: -1;
+}
+
 
 /*--------------------------------------------------------------
 # new
