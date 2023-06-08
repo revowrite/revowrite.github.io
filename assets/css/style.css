@@ -921,14 +921,14 @@ section {
 /*--------------------------------------------------------------
 # new
 --------------------------------------------------------------*/
-#hero {
+#new {
   width: 100%;
   background: url("../img/hero-bg.jpg");
   position: relative;
   padding: 120px 0 0 0;
 }
 
-#hero:before {
+#new:before {
   content: "";
   background: rgba(2, 5, 161, 0.91);
   position: absolute;
@@ -938,7 +938,7 @@ section {
   right: 0;
 }
 
-#hero h1 {
+#new h1 {
   margin: 0 0 20px 0;
   font-size: 48px;
   font-weight: 700;
@@ -946,18 +946,18 @@ section {
   color: rgba(255, 255, 255, 0.8);
 }
 
-#hero h1 span {
+#new h1 span {
   color: #fff;
   border-bottom: 4px solid #1acc8d;
 }
 
-#hero h2 {
+#new h2 {
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 40px;
   font-size: 24px;
 }
 
-#hero .btn-get-started {
+#new .btn-get-started {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -970,7 +970,7 @@ section {
   background: #1acc8d;
   margin-right: 10px; /* Add space between buttons */
 }
-#hero .btn-get-started:last-child {
+#new .btn-get-started:last-child {
   margin-right: 0; /* Remove right margin from the last button */
 }
 
@@ -978,7 +978,7 @@ section {
   background: #17b57d;
 }
 
-#hero .animated {
+#new .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
@@ -989,29 +989,29 @@ section {
 }
 
 @media (max-width: 991px) {
-  #hero {
+  #new {
     padding-top: 80px;
   }
 
-  #hero .animated {
+  #new .animated {
     animation: none;
   }
 
-  #hero .hero-img {
+  #new .hero-img {
     text-align: center;
   }
 
-  #hero .hero-img img {
+  #new .hero-img img {
     max-width: 50%;
   }
 
-  #hero h1 {
+  #new h1 {
     font-size: 28px;
     line-height: 32px;
     margin-bottom: 10px;
   }
 
-  #hero h2 {
+  #new h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
@@ -1019,7 +1019,7 @@ section {
 }
 
 @media (max-width: 575px) {
-  #hero .hero-img img {
+  #new .hero-img img {
     width: 80%;
   }
 }
