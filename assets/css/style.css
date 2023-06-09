@@ -969,6 +969,7 @@ section {
   color: #fff;
   background: #1acc8d;
   margin-right: 10px; /* Add space between buttons */
+  margin-bottom: 10px;
 }
 #new .btn-get-started:last-child {
   margin-right: 0; /* Remove right margin from the last button */
